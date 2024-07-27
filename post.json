@@ -1,29 +1,31 @@
-{
-  "post":[
-    {
-      "id": 1,
-      "advice": "Remember that spiders are more afraid of you, than you are of them.",
-      "date": "2015-05-26",
-      "img": "https://gabrielpole.github.io/VueOrigmaid/assets/post1.jpg"
-    },
-    {
-      "id": 2,
-      "advice": "Smile and the world smiles with you. Frown and you're on your own.",
-      "date": "2015-11-18"
-    },
-    {
-      "id": 3,
-      "advice": "Don't eat non-snow-coloured snow.",
-      "date": "2013-11-25"
-    },
-    {
-      "id": 4,
-      "advice": "Cars are bad investments.",
-      "date": "2017-02-12"
-    },
-    {
-      "id": 5,
-      "advice": "If you have the chance, take it!",
-      "date": "2016-12-25"
-    }]
-}
+[
+  {
+    "id": 1,
+    "nome": "nome de exemplo",
+    "img": "https://gabrielpole.github.io/VueOrigmaid/assets/post1.jpg",
+    "conteudo":[
+    ]
+  },
+  {
+    "id": 1,
+    "nome": "nome de exemplo",
+    "img": "https://gabrielpole.github.io/VueOrigmaid/assets/post1.jpg",
+    "conteudo":[
+    ]
+  },
+  {
+    "id": 1,
+    "nome": "nome de exemplo",
+    "img": "https://gabrielpole.github.io/VueOrigmaid/assets/post1.jpg",
+    "conteudo":[
+    ]
+  },
+  {
+    "id": 1,
+    "nome": "nome de exemplo",
+    "img": "https://gabrielpole.github.io/VueOrigmaid/assets/post1.jpg",
+    "conteudo":[
+    ]
+  }
+]
+  
