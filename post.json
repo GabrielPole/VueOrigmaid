@@ -1,9 +1,10 @@
 {
-  "post"[
+  "post":[
     {
       "id": 1,
       "advice": "Remember that spiders are more afraid of you, than you are of them.",
-      "date": "2015-05-26"
+      "date": "2015-05-26",
+      "img": "https://gabrielpole.github.io/VueOrigmaid/assets/post1.jpg"
     },
     {
       "id": 2,
