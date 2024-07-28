@@ -10,30 +10,26 @@
 </head>
 
 <body>
-  <div id="app">
+  <div id="posts">
     <button @click="puxarCursos">Puxar Cursos</button>
 
-    <div v-for="curso in cursos">
-      <h1><a :href="curso.link">{{curso.curso}}</a></h1>
-      <ul>
-        <li v-for="{nome, tempo} in curso.aulas">
-          {{nome}}, {{tempo}}
-        </li>
-      </ul>
+    <div v-for="post, id in posts">
+      <h1><a>{{post.nome}}: {{post.id}}</a></h1>
+      <img :src="post.img" alt="">
     </div>
   </div>
   <script>
     const vm = new Vue({
-      el: "#app",
+      el: "#posts",
       data: {
-        cursos: {}
+        posts: {}
       },
       methods: {
         puxarCursos() {
-          fetch("./cursos.json")
+          fetch("https://gabrielpole.github.io/VueOrigmaid/post.json")
           .then(r => r.json())
           .then(r => {
-            this.cursos = r;
+            this.posts = r;
           })
         }
       }
