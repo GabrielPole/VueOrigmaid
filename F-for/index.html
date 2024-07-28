@@ -15,7 +15,8 @@
 
     <div v-for="post, id in posts">
       <h1><a>{{post.nome}}: {{post.id}}</a></h1>
-      <img :src="post.img" alt="">
+      <img :src="post.img.link" :alt="post.img.alt">
+      
     </div>
   </div>
   <script>
